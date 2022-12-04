@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 4.12.2022 &#10;Add new page - news &#10;Refactor frontend code &#10;Add new database for news &#10;Add button into a news web &#10;Add page test-site">
+    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 4.12.2022 &#10;Add new page - create&#10;Refactor frontend code &#10;Add new form for add news &#10;Add button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/main/static/main/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/static/main/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/news/templates/news/news_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/templates/news/news_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/news/templates/news/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/templates/news/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670151341932</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update 4.12.2022 &#10;Add new page - create&#10;Refactor frontend code &#10;Add new form for add news &#10;Add button">
+      <created>1670162195914</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670162195914</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +156,7 @@
     <MESSAGE value="New files my first site." />
     <MESSAGE value="Add text + button on site. &#10;Refactor path on page. &#10;Added new styles for text, logo &#10;Add urls in views and urls.py" />
     <MESSAGE value="Update 4.12.2022 &#10;Add new page - news &#10;Refactor frontend code &#10;Add new database for news &#10;Add button into a news web &#10;Add page test-site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 4.12.2022 &#10;Add new page - news &#10;Refactor frontend code &#10;Add new database for news &#10;Add button into a news web &#10;Add page test-site" />
+    <MESSAGE value="Update 4.12.2022 &#10;Add new page - create&#10;Refactor frontend code &#10;Add new form for add news &#10;Add button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 4.12.2022 &#10;Add new page - create&#10;Refactor frontend code &#10;Add new form for add news &#10;Add button" />
   </component>
 </project>
