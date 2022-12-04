@@ -60,3 +60,10 @@ main .features {
 main .features h1 {font-size: 50px;}
 main .features p {max-width: 400px; margin: 20px auto}
 
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 28%;
+    text-align: left;
+}
