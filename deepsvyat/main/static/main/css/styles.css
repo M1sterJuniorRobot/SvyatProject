@@ -52,24 +52,31 @@ aside ul li:hover, aside ul a:hover {
 main .features {
     float: left;
     color: #fff;
-    margin-top: 120px;
+    margin-top: 20px;
     text-align: center;
     width: 75%;
 }
 
-main .features h1 {font-size: 50px;}
-main .features p {max-width: 400px; margin: 20px auto}
+main .features h1 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+main .features p {
+    max-width: 400px;
+    margin: 20px auto;
+}
 
 .alert-warning {
     float: left;
     clear: both;
     width: 400px;
-    margin: 20px 28%;
+    margin: 10px 30%;
     text-align: left;
 }
 
 form {
     margin-left: 28%;
     width: 500px;
-    margin-top: 50 px;
+    margin-top: 90 px;
 }
