@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 6.12.2022 &#10;&#10;- Need add register and auth &#10;&#10;- Replit 'add news' for users &#10;&#10;- Refactor frontend pages">
+    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 7.12.2022 &#10;&#10;- Ended writing code with video-lessons &#10;&#10;- Add func for delete and edit news&#10;&#10;- Add obj in models, urls and views">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/news/templates/news/details_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/templates/news/details_view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670338945984</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update 7.12.2022 &#10;&#10;- Ended writing code with video-lessons &#10;&#10;- Add func for delete and edit news&#10;&#10;- Add obj in models, urls and views">
+      <created>1670403351684</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670403351684</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +193,7 @@
     <MESSAGE value="Update 4.12.2022 &#10;&#10;Last update for the day&#10;&#10;New form for create new-post &#10;&#10;New style in create post" />
     <MESSAGE value="Update 6.12.2022 &#10;&#10;Add new web-page for everyone elements in news &#10;&#10;Add button for go a new web-page with news" />
     <MESSAGE value="Update 6.12.2022 &#10;&#10;- Need add register and auth &#10;&#10;- Replit 'add news' for users &#10;&#10;- Refactor frontend pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 6.12.2022 &#10;&#10;- Need add register and auth &#10;&#10;- Replit 'add news' for users &#10;&#10;- Refactor frontend pages" />
+    <MESSAGE value="Update 7.12.2022 &#10;&#10;- Ended writing code with video-lessons &#10;&#10;- Add func for delete and edit news&#10;&#10;- Add obj in models, urls and views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 7.12.2022 &#10;&#10;- Ended writing code with video-lessons &#10;&#10;- Add func for delete and edit news&#10;&#10;- Add obj in models, urls and views" />
   </component>
 </project>
