@@ -17,6 +17,10 @@ class NewsUpdateView(UpdateView):
     form_class = ArticlesForm
 
 
+class ProjectLoginView():
+    template_name = 'login.html'
+    # доделать
+
 class NewsDeleteView(DeleteView):
     model = Articles
     success_url = '/news/'
