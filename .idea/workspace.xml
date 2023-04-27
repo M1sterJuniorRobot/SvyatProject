@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 28.12.2022 &#10;&#10;- No one adds becouse i am lazy f#cking pig">
-      <change beforePath="$PROJECT_DIR$/deepsvyat/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/db.sqlite3" afterDir="false" />
+    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/deepsvyat/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/deepsvyat/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/templates/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680454439829</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login">
+      <created>1682587753018</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682587753018</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -215,11 +219,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="332dc85e-ec99-4b6a-966a-f4153b43cda8">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/macbook/PycharmProjects/SvyatProjects/deepsvyat/w_users" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="332dc85e-ec99-4b6a-966a-f4153b43cda8" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
@@ -233,6 +267,7 @@
     <MESSAGE value="Update 6.12.2022 &#10;&#10;- Need add register and auth &#10;&#10;- Replit 'add news' for users &#10;&#10;- Refactor frontend pages" />
     <MESSAGE value="Update 7.12.2022 &#10;&#10;- Ended writing code with video-lessons &#10;&#10;- Add func for delete and edit news&#10;&#10;- Add obj in models, urls and views" />
     <MESSAGE value="Update 28.12.2022 &#10;&#10;- No one adds becouse i am lazy f#cking pig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 28.12.2022 &#10;&#10;- No one adds becouse i am lazy f#cking pig" />
+    <MESSAGE value="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login" />
   </component>
 </project>

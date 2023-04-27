@@ -34,8 +34,6 @@ INSTALLED_APPS = [
     'w_users',
     'main',
     'news',
-    'users',
-    'crispy_bootstrap4',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
