@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login">
+    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login&#10;- Delete users">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/deepsvyat/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/deepsvyat/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682587753018</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login&#10;- Delete users">
+      <created>1682588969595</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682588969595</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -268,6 +277,7 @@
     <MESSAGE value="Update 7.12.2022 &#10;&#10;- Ended writing code with video-lessons &#10;&#10;- Add func for delete and edit news&#10;&#10;- Add obj in models, urls and views" />
     <MESSAGE value="Update 28.12.2022 &#10;&#10;- No one adds becouse i am lazy f#cking pig" />
     <MESSAGE value="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login" />
+    <MESSAGE value="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login&#10;- Delete users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login&#10;- Delete users" />
   </component>
 </project>

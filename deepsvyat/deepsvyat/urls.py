@@ -30,8 +30,8 @@ urlpatterns = [
                   path('news/', include('news.urls')),
                   path('w_users/', include('w_users.urls')),
                   path('login/',
-                       CustomLoginView.as_view(redirect_authenticated_user=True, template_name='users/login.html',
+                       CustomLoginView.as_view(redirect_authenticated_user=True, template_name='w_users/login.html',
                                                authentication_form=LoginForm), name='login'),
-                  path('logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
+                  path('logout/', auth_views.LogoutView.as_view(template_name='w_users/logout.html'), name='logout'),
 
               ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
