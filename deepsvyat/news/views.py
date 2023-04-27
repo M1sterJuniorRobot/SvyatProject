@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect
 from .models import Articles
 from .forms import ArticlesForm
+from django.http import HttpResponse
+from django.contrib import messages
 from django.views.generic import DetailView, UpdateView, DeleteView
 
 
@@ -16,10 +18,6 @@ class NewsUpdateView(UpdateView):
 
     form_class = ArticlesForm
 
-
-class ProjectLoginView():
-    template_name = 'login.html'
-    # доделать
 
 class NewsDeleteView(DeleteView):
     model = Articles
@@ -49,5 +47,5 @@ def create(request):
         'form': form,
         'error': error
     }
-
     return render(request, 'news/create.html', data)
+
