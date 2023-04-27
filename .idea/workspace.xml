@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 28.12.2022 &#10;&#10;- No one adds becouse i am lazy f#cking pig">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/deepsvyat/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/deepsvyat/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/templates/main/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
