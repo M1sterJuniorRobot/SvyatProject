@@ -1,13 +1,13 @@
-{% extends "w_users/base.html" %}
+{% extends "main/layout.html" %}
 {% block title %} Login Page {% endblock title%}
 {% block content %}
-    <div class="form-content my-3 p-3">
-        <div class="container">
+    <div class="features d-flex align-items-center">
+        <div class="container d-flex justify-content-center">
             <div class="row justify-content-center">
-                <div class="col-lg-5">
+                <div class="col-lg-9" style="margin-left: 5px;">
                     <div class="card shadow-lg border-0 rounded-lg mt-0 mb-3">
                         <div class="card-header justify-content-center">
-                          <h3 class="font-weight-light my-1 text-center">Sign In</h3>
+                          <h3 class="font-weight-light my-1 text-center" style="color: grey !important;">Sign In</h3>
                         </div>
                         {% if form.errors %}
                             <div class="alert alert-danger alert-dismissible" role="alert">
@@ -17,49 +17,42 @@
                                     {% endfor %}
                                 </div>
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
+                                    <span aria-hidden="true" >&times;</span>
                                 </button>
                             </div>
                         {% endif %}
                         <div class="card-body">
-                            <form method="POST">
+                            <form method="POST" style="margin-left: 0px !important;">
                                 {% csrf_token %}
                                 <div class="form-row">
-                                    <div class="col-md-10 offset-md-1">
-                                        <div class="form-group">
-                                            <a href="#"
-                                                   class="btn btn-link btn-lg active btn-block">Sign in with GitHub</a>
-                                            <a href="#"
-                                                   class="btn btn-link btn-lg active btn-block">Sign in with Google</a>
-                                            <hr>
-                                            <p class="text-center"><strong>OR</strong></p>
-                                            <hr>
+                                    <div class="features">
+                                        <div class="form-group" style="color: grey !important;" >
                                             <label class="small mb-1">Username</label>
                                             {{ form.username }}
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-row">
-                                    <div class="col-md-10 offset-md-1">
-                                        <div class="form-group">
+                                    <div class="features">
+                                        <div class="form-group" style="color: grey !important;" >
                                           <label class="small mb-1">Password</label>
                                           {{ form.password }}
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-row">
-                                    <div class="col-md-10 offset-md-1">
-                                        <div class="form-group">
+                                    <div class="features">
+                                        <div class="form-group" style="color: grey !important;">
                                             <!-- Add a Remember me functionality -->
                                             {{ form.remember_me }}
-                                            <label> Remember me</label>
+                                            <label > Remember me</label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="col-md-10 offset-md-1">
                                         <div class="form-group mt-0 mb-1">
-                                          <button name="login" class="col-md-12 btn btn-dark" id="login">Sign in</button>
+                                          <button name="login" class="features btn btn-dark" id="login">Sign in</button>
                                         </div>
                                     </div>
                                 </div>
