@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 27.04.2023 &#10;4:05 PM &#10;+ Login ended&#10;+ Profile &#10;+ Logout &#10;+ Remember">
+    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 2.05.2023 &#10;8:37 AM &#10;+ New styles">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Reset_at_4_26_23,_12_50_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Reset_at_4_26_23__12_50_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/deepsvyat/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/deepsvyat/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682600759372</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update 2.05.2023 &#10;8:37 AM &#10;+ New styles">
+      <created>1683005882311</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683005882311</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -285,6 +295,7 @@
     <MESSAGE value="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login" />
     <MESSAGE value="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login&#10;- Delete users" />
     <MESSAGE value="Update 27.04.2023 &#10;4:05 PM &#10;+ Login ended&#10;+ Profile &#10;+ Logout &#10;+ Remember" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 27.04.2023 &#10;4:05 PM &#10;+ Login ended&#10;+ Profile &#10;+ Logout &#10;+ Remember" />
+    <MESSAGE value="Update 2.05.2023 &#10;8:37 AM &#10;+ New styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 2.05.2023 &#10;8:37 AM &#10;+ New styles" />
   </component>
 </project>
