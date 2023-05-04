@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 2.05.2023 &#10;8:37 AM &#10;+ New styles">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Reset_at_4_26_23,_12_50_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Reset_at_4_26_23__12_50_PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 4.05.2023 &#10;8:02 PM &#10;+ Added reset password">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/deepsvyat/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/deepsvyat/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683005882311</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Update 4.05.2023 &#10;8:02 PM &#10;+ Added reset password">
+      <created>1683219798658</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1683219798658</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -296,6 +305,7 @@
     <MESSAGE value="Update 27.04.2023 &#10;&#10;+ Register&#10;+ Login&#10;- Delete users" />
     <MESSAGE value="Update 27.04.2023 &#10;4:05 PM &#10;+ Login ended&#10;+ Profile &#10;+ Logout &#10;+ Remember" />
     <MESSAGE value="Update 2.05.2023 &#10;8:37 AM &#10;+ New styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 2.05.2023 &#10;8:37 AM &#10;+ New styles" />
+    <MESSAGE value="Update 4.05.2023 &#10;8:02 PM &#10;+ Added reset password" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 4.05.2023 &#10;8:02 PM &#10;+ Added reset password" />
   </component>
 </project>
