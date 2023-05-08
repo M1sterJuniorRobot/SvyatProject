@@ -8,6 +8,8 @@ from django.contrib.auth.views import LoginView
 from .forms import RegisterForm, LoginForm
 from django.contrib.auth.decorators import login_required
 from django.contrib.messages.views import SuccessMessageMixin
+from .forms import UpdateUserForm, UpdateProfileForm
+from django.contrib.auth.views import PasswordChangeView
 
 
 def home(request):
@@ -77,6 +79,25 @@ class CustomLoginView(LoginView):
         return super(CustomLoginView, self).form_valid(form)
 
 
+class ChangePasswordView(SuccessMessageMixin, PasswordChangeView):
+    template_name = 'w_users/change_password.html'
+    success_message = "Successfully Changed Your Password"
+    success_url = reverse_lazy('users-home')
+
+
 @login_required
 def profile(request):
-    return render(request, 'users/profile.html')
+    if request.method == 'POST':
+        user_form = UpdateUserForm(request.POST, instance=request.user)
+        profile_form = UpdateProfileForm(request.POST, request.FILES, instance=request.user.profile)
+
+        if user_form.is_valid() and profile_form.is_valid():
+            user_form.save()
+            profile_form.save()
+            messages.success(request, 'Your profile is updated successfully')
+            return redirect(to='w_users-profile')
+    else:
+        user_form = UpdateUserForm(instance=request.user)
+        profile_form = UpdateProfileForm(instance=request.user.profile)
+
+    return render(request, 'w_users/profile.html', {'user_form': user_form, 'profile_form': profile_form})

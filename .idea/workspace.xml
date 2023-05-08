@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 4.05.2023 &#10;8:02 PM &#10;+ Added reset password">
+    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 4.05.2023 &#10;9:18 PM &#10;+ Added profile pictures &#10;+ Added bio in profile &#10;+ Added signals with create the profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/deepsvyat/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/deepsvyat/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/views.py" afterDir="false" />
     </list>
@@ -236,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683219798658</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update 4.05.2023 &#10;9:18 PM &#10;+ Added profile pictures &#10;+ Added bio in profile &#10;+ Added signals with create the profile">
+      <created>1683224319256</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1683224319256</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update 4.05.2023 &#10;9:18 PM &#10;+ Added profile pictures &#10;+ Added bio in profile &#10;+ Added signals with create the profile">
+      <created>1683224324709</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1683224324709</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -306,6 +324,7 @@
     <MESSAGE value="Update 27.04.2023 &#10;4:05 PM &#10;+ Login ended&#10;+ Profile &#10;+ Logout &#10;+ Remember" />
     <MESSAGE value="Update 2.05.2023 &#10;8:37 AM &#10;+ New styles" />
     <MESSAGE value="Update 4.05.2023 &#10;8:02 PM &#10;+ Added reset password" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 4.05.2023 &#10;8:02 PM &#10;+ Added reset password" />
+    <MESSAGE value="Update 4.05.2023 &#10;9:18 PM &#10;+ Added profile pictures &#10;+ Added bio in profile &#10;+ Added signals with create the profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 4.05.2023 &#10;9:18 PM &#10;+ Added profile pictures &#10;+ Added bio in profile &#10;+ Added signals with create the profile" />
   </component>
 </project>

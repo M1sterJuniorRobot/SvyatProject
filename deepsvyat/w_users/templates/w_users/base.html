@@ -21,9 +21,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
-                  <a href="#" class="nav-item nav-link">Profile</a>
-                  <a href="#" class="nav-item nav-link">Logout</a>
-                  <a href="#" class="nav-item nav-link">Sign in</a>
+                  <a href="{% url 'users_profile' %}" class="nav-item nav-link">Profile</a>
+                  <a href="{% url 'logout' %}" class="nav-item nav-link">Logout</a>
+                  <a href="{% url 'login' %}" class="nav-item nav-link">Sign in</a>
                 </div>
             </div>
         </nav>

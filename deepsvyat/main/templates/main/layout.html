@@ -33,7 +33,7 @@
 
 
             {% if user.is_authenticated %}
-            <a href="#" class="fa-solid fa-user">Profile</a>
+            <a href="#" class="nav-item nav-link">Profile</a>
             <a href="{% url 'logout' %}" class="fa-solid fa-user">Logout</a>
             {% else %}
             <a href="{% url 'login' %}"><li><i class="fa-solid fa-user"></i> Авторизация</li></a>
