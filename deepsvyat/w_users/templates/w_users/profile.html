@@ -1,9 +1,7 @@
 {% extends "main/layout.html" %}
 {% block title %}Profile Page{% endblock title %}
 {% block content %}
-    <div class="row my-3 p-3">
-        <img class="rounded-circle account-img" src="{{ user.profile.avatar.url }} " style="cursor: pointer;"/>
-    </div>
+
     {% if user_form.errors %}
         <div class="alert alert-danger alert-dismissible" role="alert">
             <div id="form_errors">
@@ -16,11 +14,15 @@
             </button>
         </div>
     {% endif %}
-    <div class="form-content">
+
+    <div class="features d-flex align-items-center">
+        <div class="row my-3 p-3">
+            <img class="account-img" src="{{ user.profile.avatar.url }} " style="cursor: pointer;"/>
+        </div>
         <form method="post" enctype="multipart/form-data">
             {% csrf_token %}
             <div class="form-row">
-                <div class="col-md-5">
+                <div class="">
                     <div class="form-group">
                         <label class="small mb-1">Username:</label>
                             {{ user_form.username }}

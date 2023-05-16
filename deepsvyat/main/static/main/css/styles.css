@@ -80,3 +80,12 @@ form {
     width: 500px;
     margin-top: 90 px;
 }
+
+.image-bg{
+  width: 300px; /* Ширина изображения */
+  height: 300px; /* Высота изображения */
+  background: url(image.jpg); /* Прописываем путь к файлу */
+  background-repeat: no-repeat; /* Не повторяем */
+  background-size: cover; /* Размер фона */
+  background-position: center; /* Позиция картинкипо центру */
+}

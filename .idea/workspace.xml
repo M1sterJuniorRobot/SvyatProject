@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 4.05.2023 &#10;9:18 PM &#10;+ Added profile pictures &#10;+ Added bio in profile &#10;+ Added signals with create the profile">
+    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 8.05.2023 &#10;12:29 PM &#10;+ Fixed all confusions &#10;+ Added redaction profile &#10;*fix front-end &#10;*added new styles in new time">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/deepsvyat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/main/static/main/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/static/main/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683537565361</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Update 8.05.2023 &#10;12:29 PM &#10;+ Fixed all confusions &#10;+ Added redaction profile &#10;*fix front-end &#10;*added new styles in new time">
+      <created>1683538196873</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1683538196873</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -325,6 +331,7 @@
     <MESSAGE value="Update 2.05.2023 &#10;8:37 AM &#10;+ New styles" />
     <MESSAGE value="Update 4.05.2023 &#10;8:02 PM &#10;+ Added reset password" />
     <MESSAGE value="Update 4.05.2023 &#10;9:18 PM &#10;+ Added profile pictures &#10;+ Added bio in profile &#10;+ Added signals with create the profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 4.05.2023 &#10;9:18 PM &#10;+ Added profile pictures &#10;+ Added bio in profile &#10;+ Added signals with create the profile" />
+    <MESSAGE value="Update 8.05.2023 &#10;12:29 PM &#10;+ Fixed all confusions &#10;+ Added redaction profile &#10;*fix front-end &#10;*added new styles in new time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 8.05.2023 &#10;12:29 PM &#10;+ Fixed all confusions &#10;+ Added redaction profile &#10;*fix front-end &#10;*added new styles in new time" />
   </component>
 </project>
