@@ -1,7 +1,6 @@
 {% extends "main/layout.html" %}
 {% block title %}Profile Page{% endblock title %}
 {% block content %}
-
     {% if user_form.errors %}
         <div class="alert alert-danger alert-dismissible" role="alert">
             <div id="form_errors">
@@ -15,12 +14,12 @@
         </div>
     {% endif %}
 
-    <div class="features d-flex align-items-center">
-        <div class="row my-3 p-3">
-            <img class="account-img" src="{{ user.profile.avatar.url }} " style="cursor: pointer;"/>
-        </div>
+    <div class="">
         <form method="post" enctype="multipart/form-data">
             {% csrf_token %}
+            <div class="">
+                <img class="avatar" src="{{ user.profile.avatar.url }} " style="cursor: pointer;"/>
+            </div>
             <div class="form-row">
                 <div class="">
                     <div class="form-group">
@@ -30,17 +29,18 @@
                             {{ user_form.email }}
                     </div>
                     <div class="form-group">
-                        <a href="{% url 'password_change' %}">Change Password</a>
+                        <a href="{% url 'password_change' %}">Сменить пароль</a>
                         <hr>
-                        <label class="small mb-1">Change Avatar:</label>
+                        <label class="small mb-1">Сменить аватар</label>
                         {{ profile_form.avatar }}
+                        </hr>
                     </div>
-                    <label class="small mb-1">Bio:</label> {{ profile_form.bio }}
+                    <label class="small mb-1">Биография:</label> {{ profile_form.bio }}
                 </div>
             </div>
             <br><br>
-            <button type="submit" class="btn btn-dark btn-lg">Save Changes</button>
-            <button type="reset" class="btn btn-dark btn-lg">Reset</button>
+            <button type="submit" class="btn btn-dark btn-lg">Сохранить изменения</button>
+            <button type="reset" class="btn btn-dark btn-lg">Сброс</button>
         </form>
     </div>
 {% endblock content %}

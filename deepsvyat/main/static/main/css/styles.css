@@ -89,3 +89,10 @@ form {
   background-size: cover; /* Размер фона */
   background-position: center; /* Позиция картинкипо центру */
 }
+
+.avatar {
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
