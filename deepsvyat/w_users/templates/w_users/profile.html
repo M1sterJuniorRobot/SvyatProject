@@ -1,5 +1,6 @@
 {% extends "main/layout.html" %}
 {% block title %}Profile Page{% endblock title %}
+{% load widget_tweaks %}
 {% block content %}
     {% if user_form.errors %}
         <div class="alert alert-danger alert-dismissible" role="alert">
@@ -14,14 +15,11 @@
         </div>
     {% endif %}
 
-    <div class="">
+    <div class="form-holder">
         <form method="post" enctype="multipart/form-data">
             {% csrf_token %}
-            <div class="">
-                <img class="avatar" src="{{ user.profile.avatar.url }} " style="cursor: pointer;"/>
-            </div>
-            <div class="form-row">
-                <div class="">
+            <div class="form-content">
+                <div class="form-items">
                     <div class="form-group">
                         <label class="small mb-1">Username:</label>
                             {{ user_form.username }}
@@ -29,18 +27,22 @@
                             {{ user_form.email }}
                     </div>
                     <div class="form-group">
-                        <a href="{% url 'password_change' %}">Сменить пароль</a>
+                        <button class="btn btn-dark mt-3"><a href="{% url 'password_change' %}">Сменить пароль</a></button>
                         <hr>
                         <label class="small mb-1">Сменить аватар</label>
-                        {{ profile_form.avatar }}
-                        </hr>
+
+                        <img class="form-img" src="{{ user.profile.avatar.url }} " style="cursor: pointer;"/>
+
+
+                        {% render_field profile_form.avatar class="form-control" %}
                     </div>
                     <label class="small mb-1">Биография:</label> {{ profile_form.bio }}
+                    <button type="submit" class="btn btn-dark btn-lg">Сохранить изменения</button>
+                    <button type="reset" class="btn btn-dark btn-lg">Сброс</button>
                 </div>
             </div>
             <br><br>
-            <button type="submit" class="btn btn-dark btn-lg">Сохранить изменения</button>
-            <button type="reset" class="btn btn-dark btn-lg">Сброс</button>
+
         </form>
     </div>
 {% endblock content %}

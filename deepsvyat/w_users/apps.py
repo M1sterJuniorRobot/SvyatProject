@@ -13,3 +13,12 @@ class UserConfig(AppConfig):
 class WUsersConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'w_users'
+
+
+class AccountConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'w_users'
+
+    # add this
+    def ready(self):
+        from . import signals

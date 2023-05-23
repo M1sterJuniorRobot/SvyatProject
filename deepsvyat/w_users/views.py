@@ -10,6 +10,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.messages.views import SuccessMessageMixin
 from .forms import UpdateUserForm, UpdateProfileForm
 from django.contrib.auth.views import PasswordChangeView
+from .models import Profile
 
 
 def home(request):
@@ -97,7 +98,13 @@ def profile(request):
             messages.success(request, 'Your profile is updated successfully')
             return redirect(to='/')
     else:
-        user_form = UpdateUserForm(instance=request.user)
-        profile_form = UpdateProfileForm(instance=request.user.profile)
+        try:
+            user_form = UpdateUserForm(instance=request.user)
+            profile_form = UpdateProfileForm(instance=request.user.profile)
+
+        except:
+            profile = Profile.objects.create(user=request.user)
+            user_form = UpdateUserForm(instance=request.user)
+            profile_form = UpdateProfileForm(instance=profile)
 
     return render(request, 'w_users/profile.html', {'user_form': user_form, 'profile_form': profile_form})

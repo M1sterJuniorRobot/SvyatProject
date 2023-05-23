@@ -1,13 +1,13 @@
 {% extends "main/layout.html" %}
 {% block title %} Login Page {% endblock title%}
 {% block content %}
-    <div class="features d-flex align-items-center">
-        <div class="container d-flex justify-content-center">
-            <div class="row justify-content-center">
-                <div class="col-lg-9" style="margin-left: 5px;">
-                    <div class="card shadow-lg border-0 rounded-lg mt-0 mb-3">
+    <div class="container">
+        <div class="form-holder">
+            <div class="form-content">
+                <div class="row">
+                    <div class="form-items">
                         <div class="card-header justify-content-center">
-                          <h3 class="font-weight-light my-1 text-center" style="color: grey !important;">Sign In</h3>
+                          <h3 class="font-weight-light my-1 text-center" style="color: grey !important;">Авторизация</h3>
                         </div>
                         {% if form.errors %}
                             <div class="alert alert-danger alert-dismissible" role="alert">
@@ -21,11 +21,11 @@
                                 </button>
                             </div>
                         {% endif %}
-                        <div class="card-body">
+                        <div class="form-group">
                             <form method="POST" style="margin-left: 0px !important;">
                                 {% csrf_token %}
                                 <div class="form-row">
-                                    <div class="features">
+                                    <div class="row">
                                         <div class="form-group" style="color: grey !important;" >
                                             <label class="small mb-1">Username</label>
                                             {{ form.username }}
@@ -33,7 +33,7 @@
                                     </div>
                                 </div>
                                 <div class="form-row">
-                                    <div class="features">
+                                    <div class="row">
                                         <div class="form-group" style="color: grey !important;" >
                                           <label class="small mb-1">Password</label>
                                           {{ form.password }}
@@ -41,7 +41,7 @@
                                     </div>
                                 </div>
                                 <div class="form-row">
-                                    <div class="features">
+                                    <div class="row">
                                         <div class="form-group" style="color: grey !important;">
                                             <!-- Add a Remember me functionality -->
                                             {{ form.remember_me }}
@@ -49,20 +49,14 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-row">
-                                    <div class="col-md-10 offset-md-1">
+                                <div class="form-group">
+                                    <div class="row">
                                         <div class="form-group mt-0 mb-1">
-                                          <button name="login" class="features btn btn-dark" id="login">Sign in</button>
+                                          <button name="login" class="features btn btn-dark text-center" id="login">Sign in</button>
                                         </div>
                                     </div>
                                 </div>
                             </form>
-                        </div>
-                        <div class="card-footer text-center">
-                            <div class="small">
-                                <a href="{% url 'users-register' %}">Don't have an account yet? Go to signup</a><br>
-                                <a href="{% url 'password_reset' %}"><i>Forgot Password?</i></a>
-                            </div>
                         </div>
                     </div>
                 </div>
