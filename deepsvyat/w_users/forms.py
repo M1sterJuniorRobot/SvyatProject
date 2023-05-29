@@ -5,7 +5,6 @@ from .models import Profile
 
 
 class RegisterForm(UserCreationForm):
-    # fields we want to include and customize in our form
     first_name = forms.CharField(max_length=100,
                                  required=True,
                                  widget=forms.TextInput(attrs={'placeholder': 'First Name',
