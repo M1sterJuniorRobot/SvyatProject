@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 26.05.2023 &#10;2:19 PM &#10;*added new styles in forms &#10;+ fixed bug with profiles">
+    <list default="true" id="b122da5d-d9c7-4ee1-9429-53745cc188c1" name="Changes" comment="Update 29.05.2023 &#10;1:47 PM &#10;*fixed styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deepsvyat/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/templates/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/w_users/templates/w_users/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/main/static/main/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/static/main/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/main/templates/main/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/news/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/news/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/news/templates/news/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/templates/news/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/news/templates/news/details_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/templates/news/details_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/news/templates/news/news_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/templates/news/news_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepsvyat/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepsvyat/news/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685099994221</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Update 29.05.2023 &#10;1:47 PM &#10;*fixed styles">
+      <created>1685357282044</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1685357282044</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -367,6 +378,7 @@
     <MESSAGE value="Update 21.05.2023 &#10;4:45 PM &#10;*added new styles in new time" />
     <MESSAGE value="Update 23.05.2023 &#10;9:12 AM &#10;*added new styles in forms &#10;+ fixed bug with profiles" />
     <MESSAGE value="Update 26.05.2023 &#10;2:19 PM &#10;*added new styles in forms &#10;+ fixed bug with profiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 26.05.2023 &#10;2:19 PM &#10;*added new styles in forms &#10;+ fixed bug with profiles" />
+    <MESSAGE value="Update 29.05.2023 &#10;1:47 PM &#10;*fixed styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 29.05.2023 &#10;1:47 PM &#10;*fixed styles" />
   </component>
 </project>

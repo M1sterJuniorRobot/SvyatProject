@@ -3,22 +3,43 @@
 {% block title %}Новости{% endblock %}
 
 {% block content %}
-    <div class="features">
-        <h1>Новости колледжа</h1>
-        {% if news %}
-            {% for el in news %}
-                <div class="alert alert-warning">
-                    <h3>{{ el.title }}</h3>
-                    <p>{{ el.anons }}</p>
-                    <a href="{% url 'news-detail' el.id %}" class="btn btn-warning">Читать...</a>
-                </div>
-            {% endfor %}
-        {% else %}
-            <p>У вас нет записей</p>
-        {% endif %}
 
-        {# Комментарий #}
+
+
+<div class="container mt-4">
+{% if news %}
+      {% for el in news %}
+ <div class="container mb-2">
+  <div class="card"> <!-- Неплохо выглядит с классом form-content -->
+    <div class="card-body"> <!-- Неплохо выглядит с классом form-items, возомжно лучше добавить доп див с ними -->
+      <span class="tag tag-teal">Technology</span>
+      <h4>
+        {{ el.title }}
+      </h4>
+      <p>
+        {{ el.anons }}
+      </p>
+      <div class="user">
+        <img src="/media/default.jpg" alt="user" />
+          <div class="row">
+              <div class="col-sm">
+                  <div class="user-info">
+                      <h5> {{ el.author }}</h5>
+                      <small>2h ago</small>
+                  </div>
+              </div>
+
+              <div class="col-sm">
+                  <a href="{% url 'news-detail' el.id %}" class="btn btn-warning">Читать...</a>
+              </div>
+          </div>
+      </div>
     </div>
 
+  </div>
+  </div>
 
-{% endblock %}
+ {% endfor %}
+      {% endif %}
+</div>
+  {% endblock %}

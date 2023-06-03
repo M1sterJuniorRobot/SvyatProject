@@ -4,6 +4,7 @@ from .forms import ArticlesForm
 from django.http import HttpResponse
 from django.contrib import messages
 from django.views.generic import DetailView, UpdateView, DeleteView
+from django.contrib.auth.decorators import login_required
 
 
 # Create your views here.
@@ -31,12 +32,15 @@ class NewsDetailView(DetailView):
     context_object_name = 'article'
 
 
+@login_required
 def create(request):
     error = ''
     if request.method == 'POST':
         form = ArticlesForm(request.POST)
         if form.is_valid():
-            form.save()
+            news = form.save(commit=False)
+            news.author = request.user
+            news.save()
             return redirect('home')
         else:
             error = 'Форма была неверной'
@@ -48,4 +52,3 @@ def create(request):
         'error': error
     }
     return render(request, 'news/create.html', data)
-
