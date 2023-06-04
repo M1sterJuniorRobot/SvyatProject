@@ -19,8 +19,8 @@ class ArticlesForm(ModelForm):
                             widget=forms.TextInput(attrs={'class': 'form-control',
                                                           'placeholder': 'Анонс статьи'
                                                           }))
-    date = forms.DateTimeField(widget=DateTimeInput(attrs={'class': 'form-control',
-                                                           'placeholder': 'Введите дату'}))
+    # date = forms.DateTimeField(widget=DateTimeInput(attrs={'class': 'form-control',
+    #                                                        'placeholder': 'Введите дату'}))
     full_text = forms.CharField(max_length=50,
                                 required=True,
                                 widget=forms.Textarea(attrs={'class': 'form-control',
@@ -29,4 +29,4 @@ class ArticlesForm(ModelForm):
 
     class Meta:
         model = Articles
-        fields = ['title', 'anons', 'full_text', 'date']
+        fields = ['title', 'anons', 'full_text']

@@ -5,11 +5,12 @@ from django.http import HttpResponse
 from django.contrib import messages
 from django.views.generic import DetailView, UpdateView, DeleteView
 from django.contrib.auth.decorators import login_required
+import datetime
 
 
 # Create your views here.
 def news_home(request):
-    news = Articles.objects.order_by('date')[:3]
+    news = Articles.objects.order_by('date')[:3] # запомни нахуй, эти :3 означают сколько выводить на страницу
     return render(request, 'news/news_home.html', {'news': news})
 
 
@@ -40,6 +41,7 @@ def create(request):
         if form.is_valid():
             news = form.save(commit=False)
             news.author = request.user
+            news.date = datetime.datetime.today()
             news.save()
             return redirect('home')
         else:

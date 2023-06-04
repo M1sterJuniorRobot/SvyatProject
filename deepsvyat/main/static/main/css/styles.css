@@ -12,17 +12,22 @@
 }
 
 html, body {
+    margin: 0;
     height: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
     background-color: #2c2c2c;
-    overflow: hidden;
+    overflow: auto;
+    display: block;
 }
 
 aside{
     float: left;
     background: #181818;
+    overflow: auto;
     width: 20%;
     padding: 2.5%;
-    height: 100vh;
+    min-height: 100vh;
     color: #fff;
     border-right: 5px solid #4d4d4d;
 }
